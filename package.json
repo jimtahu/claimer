@@ -1,0 +1,23 @@
+{
+  "name": "claimer",
+  "version": "0.0.1",
+  "description": "Bot which locates and claims things for things",
+  "main": "claimer.js",
+  "dependencies": {
+    "jsonfile": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimtahu/claimer.git"
+  },
+  "author": "jimtahu@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimtahu/claimer/issues"
+  },
+  "homepage": "https://github.com/jimtahu/claimer#readme"
+}
