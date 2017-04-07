@@ -1,11 +1,12 @@
+var names = require('naming-language');
 var jsonfile = require('jsonfile');
 var data=jsonfile.readFileSync('country_data.json');
 var governments = data.governments;
-var names = data.names;
 
 function countryDesc(){
+    var myLang = names.makeRandomLanguage();
     var myGov = governments[Math.floor(Math.random()*governments.length)];
-    var myName = names[Math.floor(Math.random()*names.length)];
+    var myName = names.makeName(myLang);
     return (" claimed by the "+myName+" "+myGov);
 }
 exports.governments = governments;

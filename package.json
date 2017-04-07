@@ -4,7 +4,8 @@
   "description": "Bot which locates and claims things for things",
   "main": "claimer.js",
   "dependencies": {
-    "jsonfile": "^2.4.0"
+    "jsonfile": "^2.4.0",
+    "naming-language": "0.0.3"
   },
   "devDependencies": {},
   "scripts": {
