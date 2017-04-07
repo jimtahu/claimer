@@ -1,3 +1,3 @@
 # Claimer
 
-Bot which locates and claims things for things
+Bot which locates and claims things for other things
