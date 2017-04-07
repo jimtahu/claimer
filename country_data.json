@@ -1,3 +1,17 @@
 {
-  "governments" : ["Republic","Kingdom","Hedgomony","Empire","Federation"]
+  "governments" : [
+    "Autocracy",
+    "Bureaucracy",
+    "Confederacy",
+    "Democracy",
+    "Empire",
+    "Federation",
+    "Hedgomony",
+    "Hierarchy",
+    "Higher Brain",
+    "Kingdom",
+    "Kleptocracy",
+    "Republic",
+    "Zantropy"
+  ]
 }
